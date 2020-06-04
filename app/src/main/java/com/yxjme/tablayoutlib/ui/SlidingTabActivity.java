@@ -21,13 +21,12 @@ import com.yxjme.tablayoutlib.utils.ViewFindUtils;
 import java.util.ArrayList;
 
 public class SlidingTabActivity extends AppCompatActivity implements OnTabSelectListener {
+
     private Context mContext = this;
     private ArrayList<Fragment> mFragments = new ArrayList<>();
-    private final String[] mTitles = {
-            "热门", "iOS", "Android"
-            , "前端", "后端", "设计", "工具资源"
-    };
+    private final String[] mTitles = { "热门", "iOS", "Android", "前端", "后端", "设计", "工具资源" };
     private MyPagerAdapter mAdapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,6 +118,7 @@ public class SlidingTabActivity extends AppCompatActivity implements OnTabSelect
     }
 
     private class MyPagerAdapter extends FragmentPagerAdapter {
+
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);
         }
