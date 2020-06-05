@@ -5,22 +5,20 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-
 import com.flyco.tablayout.SlidingTabLayout;
 import com.flyco.tablayout.listener.OnTabSelectListener;
 import com.flyco.tablayout.widget.MsgView;
 import com.yxjme.tablayoutlib.R;
 import com.yxjme.tablayoutlib.utils.ViewFindUtils;
-
 import java.util.ArrayList;
 
 public class SlidingTabActivity extends AppCompatActivity implements OnTabSelectListener {
+
 
     private Context mContext = this;
     private ArrayList<Fragment> mFragments = new ArrayList<>();
@@ -105,6 +103,7 @@ public class SlidingTabActivity extends AppCompatActivity implements OnTabSelect
 //                tabLayout_7.addNewTab("后端");
 //            }
 //        });
+
     }
 
     @Override
