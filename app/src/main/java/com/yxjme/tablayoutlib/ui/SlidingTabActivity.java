@@ -19,7 +19,6 @@ import java.util.ArrayList;
 
 public class SlidingTabActivity extends AppCompatActivity implements OnTabSelectListener {
 
-
     private Context mContext = this;
     private ArrayList<Fragment> mFragments = new ArrayList<>();
     private final String[] mTitles = { "热门", "iOS", "Android", "前端", "后端", "设计", "工具资源" };
