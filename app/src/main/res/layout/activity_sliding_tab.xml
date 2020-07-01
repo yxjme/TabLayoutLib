@@ -87,8 +87,9 @@
                 android:layout_height="48dp"
                 android:background="#57385C"
                 tl:tl_indicator_corner_radius="1.5dp"
+                tl:tl_indicator_color="@android:color/holo_red_dark"
                 tl:tl_indicator_height="3dp"
-                tl:tl_indicator_width="10dp"/>
+                tl:tl_indicator_width="10dp" />
 
             <com.flyco.tablayout.SlidingTabLayout
                 android:id="@+id/tl_8"
